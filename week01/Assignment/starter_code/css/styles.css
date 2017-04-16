@@ -23,7 +23,10 @@ article {
 
 a {
 	text-decoration: none;
-	color: #007400;
+	color: #FB2949;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 article img {
