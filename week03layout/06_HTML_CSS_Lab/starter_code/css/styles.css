@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #aaa;
+    color: black;
+    font-size: 16px;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background: black;
+    padding: 20px;
+    border-bottom: 2px solid yellow;
+}
+
+.logo a {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: yellow;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    text-decoration: underline;
+}
+
+.navigation {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.navigation ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 150px;
+}
+
+.navigation li {
+    float: left;
+    padding-right: 25px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.main_navlinks a {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+
+.secondary_navlinks a {
+    font-size: 1.4em;
+    line-height: 40px;
+}
+
+.tagline {
+    background: lightgrey;
+    text-align: center;
+    padding: 1px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.375em;
+}
+
+.strike_text {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.underline_text {
+    border-bottom: 2px solid yellow;
+}
+
+.hero {
+    background: url(../images/coworking.jpg) no-repeat left center;
+    overflow: auto;
+    padding: 20px;
+}
+
+.btn {
+    background: lightgrey;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    width: 270px;
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.5);
+    text-decoration: underline;
+}
+
+.btn_primary {
+    background: yellow;
+}
+
+a > .btn_secondary {
+    text-decoration: none;
+}
+
+.main_cta {
+    background: rgba(255,255,255,.8);
+    max-width: 36%;
+    float: right;
+    padding: 30px;
+    box-shadow: 0 0 3px #333;
+}
+
+.main_cta a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.main_cta h1 {
+    color: blue;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.main_cta p {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.secondary_cta_group div {
+    background: white;
+    padding: 0 25px 25px 25px;
+}
+
+.secondary_cta_group h1 {
+    color: blue;
+    font-size: 1.15em;
+}
+
+.secondary_cta_group p {
+    text-align: justify;
+    margin-top: -10px;
+}
+
+.secondary_cta1 {
+    float: left;
+    max-width: 33.3333%;
+    /*HOW DO YOU CONTROL THE HEIGHT OF A BORDER?*******************************/
+    border-right: 1px solid lightgrey;
+}
+
+.secondary_cta2 {
+    float: left;
+    max-width: 33.3333%;
+    border-right: 1px solid lightgrey;
+}
+
+.secondary_cta3 {
+    float: left;
+    max-width: 33.3333%;
+}
+
+.footer {
+    clear: both;
+    background: black;
+    color: white;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+}
