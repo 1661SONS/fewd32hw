@@ -23,5 +23,5 @@ jQuery(document).ready(function () {
     jQuery('.no_jump').click(function (e) {
         e.preventDefault();
     });
-    
+
 });

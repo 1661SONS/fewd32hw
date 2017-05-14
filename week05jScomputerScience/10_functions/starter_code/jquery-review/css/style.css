@@ -1,0 +1,14 @@
+body {
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 10px auto;
+    height: 200px;
+    width: 200px;
+    color: black;
+    text-align: center;
+    line-height: 200px;
+    font-family: 'Helvetica';
+    /*margin: auto;*/
+}
