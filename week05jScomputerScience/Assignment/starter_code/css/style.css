@@ -50,7 +50,7 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
-  background: url(../images/citipix_skyline.jpg) no-repeat center center fixed;
+  background: url(../images/earth.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -87,7 +87,7 @@ header {
   font-weight: normal
 }
 
-#city-type {
+#city_type {
   color: #6b6b6c;
   font-size: 38px;
   background: #fff;
@@ -102,7 +102,7 @@ header {
   vertical-align: middle;
   box-shadow: #111 0 0 20px;
 }
-#submit-btn {
+#update_btn {
   background: #ffe500;
   color: #000;
   font-size: 38px;
@@ -119,15 +119,16 @@ header {
   font-family: helvetica, arial, sans-serif;
   cursor: pointer;
 }
-#submit-btn:hover {
+#update_btn:hover {
   background: #fff600;
+  text-decoration: underline;
 }
 
-.nyc {
-  background-image: url(../images/nyc.jpg)
+.atl {
+  background-image: url(../images/atl2.jpg)
 }
-.sf {
-  background-image: url(../images/sf.jpg)
+.sd {
+  background-image: url(../images/sd2.jpg)
 }
 .la {
   background-image: url(../images/la.jpg)
@@ -135,9 +136,20 @@ header {
 .austin {
   background-image: url(../images/austin.jpg)
 }
+.nyc {
+  background-image: url(../images/nyc.jpg)
+}
 .sydney {
   background-image: url(../images/sydney.jpg)
 }
+.sf {
+  background-image: url(../images/sf.jpg)
+}
+.havana {
+  background-image: url(../images/havana3.jpg)
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
