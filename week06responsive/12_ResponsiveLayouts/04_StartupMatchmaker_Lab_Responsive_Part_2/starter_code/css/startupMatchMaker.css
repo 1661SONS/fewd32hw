@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #aaa;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* HEADER */
+
+.site-header {
+    background-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    border-bottom-width: 2px;
+    padding: 20px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    color: yellow;
+    float: left;
+}
+
+.logo a {
+    color: yellow;
+}
+
+.showMenu {
+    float: right;
+    width: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a li {
+    float: left;
+    color: white;
+    display: block;
+    padding: 8px 12px;
+}
+
+.navigation a:hover li {
+    border-bottom: 2px solid yellow;
+    /*padding-bottom: 10px;*/
+}
+
+/* contentContainer */
+
+.contentContainer {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contentContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* BODY LAYOUT */
+
+.main_content {
+    background: white;
+    min-height: 100%;
+    padding-bottom: 60px;
+}
+
+.introContent {
+    padding:30px 10px;
+}
+
+.introContent h1 {
+    font-size: 30px;
+
+}
+
+
+/* responsiveTileGroup */
+
+.responsiveTileGroup {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display:block;
+}
+
+.responsiveTileGroupItem {
+    padding: 10px;
+    width: 480px;
+    float: left;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 960px) {
+    .responsiveTileGroupItem{
+        width: 100%;
+        float: none;
+    }
+}
+
+.copyright {
+    font-family: 'Merriweather', serif;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+@media (max-width: 840px) {
+    .navigation {
+        float: none;
+        clear: both;
+    }
+    .navigation li {
+        display: block;
+    }
+    .navigation a li {
+        float: none;
+    }
+    .navigation a:hover li {
+        border: none;
+    }
+    .showMenu {
+        display: block;
+    }
+    .mobileHide {
+        display: none;
+    }
+    .logo {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
